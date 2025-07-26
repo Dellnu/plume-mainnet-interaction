@@ -1,0 +1,95 @@
+# Logs
+*.log
+*.logs
+log/
+tmp/
+*.tmp
+.DS_Store # macOS
+Thumbs.db # Windows
+ehthumbs.db # Windows
+.vscode/ # VS Code settings
+.idea/ # IntelliJ / PyCharm / Android Studio settings
+.project # Eclipse settings
+.settings/ # Eclipse settings
+.classpath # Eclipse settings
+*.iml # IntelliJ project files
+.buildpath # Eclipse build path
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# Misc
+.cache/
+.pytest_cache/ # Python pytest cache
+__pycache__/ # Python bytecode
+*.pyc # Python compiled files
+*.ipynb_checkpoints/ # Jupyter Notebook checkpoints
+.env # Environment variables
+.env.* # Semua file .env*
+!.env.example 
+coverage/ # Python test coverage
+htmlcov/ # Python test coverage (HTML)
+
+# Dependencies
+node_modules/ # Node.js dependencies
+vendor/ # PHP Composer dependencies
+
+# Build artifacts
+build/
+dist/
+target/ # Java Maven/Gradle target
+out/ # Java IntelliJ output
+
+# Compressed files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Executables / Binaries
+*.exe
+*.dll
+*.so
+*.o
+*.out
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.sql 
+data.db 
+
+*.pem 
+*.key
+*.p12
+*.jks
+*.cer
+*.crt
+*.csr
+*.conf.local 
+config.ini
+
+*.bak
+*.swp # Vim swap files
+*~ # Emacs backup files
+*.sublime-project
+*.sublime-workspace
+
+.env
+private_keys.txt
+unregistered.txt
+proxy.txt
+
+venv/ # Virtual environment
+.venv/ # Virtual environment
+pip-log.txt
+.Python
+.tox/

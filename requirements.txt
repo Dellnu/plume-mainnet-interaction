@@ -1,0 +1,8 @@
+python-dotenv
+web3>=5.31.1
+eth-account
+hexbytes>=0.2.0
+requests>=2.28.1
+colorama
+uvloop; platform_system != "Windows"
+winloop; platform_system == "Windows"
