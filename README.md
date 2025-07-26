@@ -42,8 +42,8 @@ An automated trading b0t designed for the plumeee network, with capabilities inc
 ## Usage Instructions
 ### 1. Install / clone this repository:
 ```bash
-git clone https://github.com/airdropservices/plumee-mainnet-services.git
-cd plumee-mainnet-services
+git clone https://github.com/Dellnu/plume-mainnet-interaction.git
+cd plume-mainnet-interaction
 ```
 ### 2. (Optional but recommended) Create a virtual environment:
 ```bash
